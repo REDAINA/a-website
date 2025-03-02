@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-user-select:none ;
+    user-select: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+section{
+    background: color #f9f8fa;
+    display:flex;
+  text-align: initial;
+    padding: 10px;
+}
+.categorie{
+   width: 20000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:20px;
+}
+.header{
+    width:100%;
+    text-align: center;
+    margin-bottom: 100%px 10% 0 10%;
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    align-items: center;
+    padding-top: 40px;
+    padding-block: 30px;
+    
+}
+h2{
+    font-family: arial;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #083620;
+    font-style: italic;
+}
+.header button{
+height:50px;
+width:120px;
+background-color:rgb(22, 138, 51);
+color: rgb(0, 0, 0);
+font-size: 20px;
+font-weight: 700PX;
+border:none;
+border-radius:35%;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+.header button:hover{
+    background: rgb(140, 255, 240);
+    transform: scale(1.1);
+}
+.box{
+    margin-inline: 20px;
+    margin-right:10px;
+    margin-left: 100px;
+    padding-block: 10px;
+    position: relative;
+    width: 200px;
+    overflow:visible;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+.box img{
+    width:200px;
+    height:250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    display: flow-root;
+    transition: transform 0.3s ease;
+}
+.box h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.6);
+    margin-top: 10px;
+    font-size: 19px;
+    color:white;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    opacity: 0;
+}
+.box:hover img{
+    transform: scale(1.1);
+}
+.box:hover h3{
+    opacity: 1;
+}
+.box img{
+    transform: scale(1.05);
+    transition: transform 0.3 ease;
+}
+
+.div{
+    margin-top:0px;
+    padding-block-end: 50px;
+}
+.header{
+    margin-top: 80px;
+  justify-content: space-between;
+  display: flex;
+align-items: center;
+}
+
+.Novels{
+    background: #f8f9fa;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0.1);
+    border-radius: 10 px;
+    width: 200px;
+    text-align: center;
+}
+.Novels img{
+    width:100%;
+    height: 200px;
+  border-radius: 10px;  
+  box-shadow:0px 5px 2px  #083620;
+}
+.Novels button{
+    background-color: rgb(23, 179, 23);
+}
+.Novels button:hover{
+    background-color:  rgb(81, 251, 245);
+    transform: scale(1.1);
+}
+.Historic{
+    background: #f8f9fa;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0.1);
+    border-radius: 10 px;
+    text-align: center;
+}
+.Historic img{
+    width:100%;
+    height: 200px;
+  border-radius: 10px;  
+  box-shadow:0px 5px 2px  #083620;
+}
+.Historic button{
+    background-color: rgb(23, 179, 23);
+}
+.Historic button:hover{
+    background-color: rgb(81, 251, 245);
+    transform: scale(1.1);
+}
+.Literay{
+    background: #f8f9fa;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0.1);
+    border-radius: 10 px;
+    text-align: center; 
+}
+.Literay img{
+    width:100%;
+    height: 200px;
+  border-radius: 10px;  
+  box-shadow:0px 5px 2px  #083620;
+}
+.Literay button{
+    background-color: rgb(23, 179, 23);
+}
+.Literay button:hover{
+    background-color: rgb(81, 251, 245);
+    transform: scale(1.1);
+}
+.Scientific{
+    background: #f8f9fa;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0.1);
+    border-radius: 10 px;
+    text-align: center;
+}
+.Scientific img{
+    width: 100%;;
+    height: 200px;
+  border-radius: 10px;  
+  box-shadow:0px 5px 2px  #083620;
+}
+.Scientific button{
+    background-color: rgb(23, 179, 23);
+}
+.Scientific button:hover{
+    background-color: rgb(81, 251, 245);
+    transform: scale(1.1);
+}
+.Medical{
+    background: #f8f9fa;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0.1);
+    border-radius: 10 px;
+    text-align: center;
+}
+.Medical img{
+    width: 100%;;
+    height: 200px;
+  border-radius: 10px;  
+  box-shadow:0px 5px 2px  #083620;
+}
+.Medical button{
+    background-color: rgb(23, 179, 23);
+}
+.Medical button:hover{
+    background-color: rgb(81, 251, 245);
+    transform: scale(1.1);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+}
+
+h2 {
+    color: #0b280d;
+}
+
+.class{
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background: #159025;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3ce2e5;
+}
+
+.cart {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+url(.)
